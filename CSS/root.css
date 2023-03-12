@@ -1,0 +1,18 @@
+@import url(/CSS/header.css);
+@import url(/CSS/main.css);
+@import url(/CSS/footer.css);
+
+
+:root {
+  --text-color: #FFF2E7;
+  --color-button: #ECD6C4;
+  --color-button-text: #2F2325;
+  --font-title: "righteous";
+  --font-text: "Sarala";
+  --fundo-menu-mobile: #455e4d;
+
+}
+
+body {
+  background: linear-gradient(68.15deg, rgb(0 91 163) 16.62%, rgb(131 102 64) 85.61%);
+}

@@ -1,0 +1,127 @@
+.conteudo {
+  border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo__principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.primeiro__conteudo__principal__titulo {
+  font-family: var(--font-title);
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+.primeiro__conteudo__principal__subtitulo {
+  font-family: var(--font-text);
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 32px;
+  margin-bottom: 34px;
+
+}
+
+.botao {
+  width: 185px;
+  height: 67px;
+  left: 369px;
+  top: 382px;
+  background: #ECD6C4;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: none;
+
+  font-family: var(--font-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 39px;
+  color: var(--color-button-text);
+}
+
+.botao:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.link__image {
+  margin-top: 35px;
+  margin-left: 258px;
+  width: 345px;
+}
+
+.segundo__conteudo__principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.segundo__conteudo__principal__titulo {
+  border-top: 0.4px solid #FFF2E7;
+  padding-top: 48px;
+  margin-bottom: 31px;
+  font-family: var(--font-title);
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.segundo__conteudo__principal__texto {
+  font-family: var(--font-text);
+  color: var(--text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .conteudo {
+
+    padding-top: 30px;
+
+  }
+
+  .conteudo__principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .link__image {
+    margin: 0;
+    padding-top: 40px;
+  }
+
+  .primeiro__conteudo__principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .primeiro__conteudo__principal__titulo {
+    text-align: center;
+  }
+
+
+
+
+}
