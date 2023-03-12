@@ -48,7 +48,7 @@
   }
 
   .botao__menu {
-    background-image: url(../assets/icon-menu.svg);
+    background-image: url(/assets/icon-menu.svg);
     background-position: center;
     background-repeat: no-repeat;
     width: 20px;
@@ -74,7 +74,7 @@
   }
 
   .botao__menu__x {
-    background-image: url(../assets/icon-x.png);
+    background-image: url(/assets/icon-x.png);
 
   }
 
