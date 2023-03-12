@@ -6,16 +6,12 @@
   margin-top: 22px;
   margin-bottom: 16px;
 }
-
 .cabecalho__imagem {
   width: 141px;
 }
-
 .menu__mobile {
   display: none;
 }
-
-
 .menu {
   display: flex;
   flex-direction: row;
@@ -24,8 +20,6 @@
   font-size: 18px;
   color: var(--text-color);
 }
-
-
 .menu__item:visited {
   color: inherit;
 }
@@ -48,7 +42,7 @@
   }
 
   .botao__menu {
-    background-image: url(.../assets/icon-menu.svg);
+    background-image: url(assets/icon-menu.svg);
     background-position: center;
     background-repeat: no-repeat;
     width: 20px;
@@ -74,14 +68,9 @@
   }
 
   .botao__menu__x {
-    background-image: url(.../assets/icon-x.png);
+    background-image: url(assets/icon-x.png);
 
   }
-
-
-
-
-
   .cabecalho {
     display: flex;
     flex-direction: row;
@@ -91,7 +80,4 @@
     margin-bottom: 16px;
 
   }
-
-
-
 }
